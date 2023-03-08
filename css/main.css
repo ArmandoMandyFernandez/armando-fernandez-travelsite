@@ -1,0 +1,149 @@
+/* nav-bar */
+header{
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 1.25rem;
+  padding: 1.25rem;
+  background-color: #FFFFFF;
+}
+
+.nav-bar{
+  background-color: #FFFFFF;
+  color: #335576;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+h1 a{
+  text-decoration: none;
+  color: #335576;
+}
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.nav__links li a{
+  text-decoration: none;
+  color: #335576;
+}
+
+.nav__links li a:a{
+border-bottom: 4px solid #DB7A4E;
+}
+
+/* hero section */
+
+.hero-container{
+  display: flex;
+  background-color: #fefaf5;
+  text-align: left;
+  width: 100%;
+  align-items: center;
+  margin: 1.25rem 0;
+  padding: 1.25rem 0;
+}
+.hero__slogan{
+  color: #335576;
+}
+
+.hero__button{
+  background-color: #DB7A4E;
+  border-radius: 30px;
+  color: white;
+  border: #DB7A4E;
+  padding: 1.25rem 2.5rem;
+}
+
+.hero__image{
+  margin: 1.25rem 0;
+  padding: 1.25rem 0;
+  height: 2rem;
+  border-radius: 4px;
+  width: 31.25rem;
+  margin: 1.25rem 0;
+  padding: 1.25rem 0;
+}
+
+/* recommendations section */
+
+.reccomendations{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommendations__cards{
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1.25rem;
+  padding: 1.25rem;
+  }
+
+.cards{
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+}
+
+.cards__photo img{
+  height: 20rem;
+  border-radius: 0.625rem;
+}
+
+
+
+/* footer section */
+.footer-container{
+  background-color: #fefaf5;
+  color: #335576;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.footer__hours{
+  display: flex;
+  flex-direction: column;
+}
+.footer__hours-schedule{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.footer-subtitles{
+  color: #DB7A4E;
+  font-size: .625rem;
+  margin: 1.25rem 0;
+  padding: 1.25 rem 0;
+}
+
+.footer-timing{
+  margin: 0 1.25rem 0 0;
+}
+
+.footer_social-icons{
+  height: 1 rem;
+  margin: .625rem 1.25rem 0 0;
+  padding: 0 1.25rem 0 0;
+}
