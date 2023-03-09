@@ -8,18 +8,22 @@
   margin: 2.5rem 0;
   padding: 1.25rem 0;
 }
+
 .hero__slogan {
   color: #335576;
 }
+
 .hero__slogan h1 {
   font-size: 2.5rem;
   margin: 20px;
   padding: 20px;
 }
+
 .hero__slogan p {
   margin: 20px;
   padding: 20px;
 }
+
 .hero__slogan button {
   font-size: 1.125rem;
 }
@@ -47,6 +51,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .recommendations__cards {
   display: inline-block;
   justify-content: center;
