@@ -5,3 +5,89 @@
 body{
   font-family: verdana;
 }
+
+/* nav-bar */
+header {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2.5rem;
+  background-color: #ffffff;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  color: #335576;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #335576;
+}
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.nav__links li a {
+  text-decoration: none;
+  color: #335576;
+}
+
+.nav__links li a:a {
+  border-bottom: 4px solid #db7a4e;
+}
+
+/* footer section */
+.footer-container {
+  background-color: #fefaf5;
+  color: #335576;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.5rem;
+  margin: 1.25rem 0;
+  width: 100%;
+}
+
+.footer__hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__hours-schedule {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-subtitles {
+  color: #db7a4e;
+  font-size: 0.625rem;
+  margin: 1.25rem 0;
+  padding: 1.25 rem 0;
+}
+
+.footer-timing {
+  margin: 0 1.25rem 0 0;
+}
+
+.footer_social-icons {
+  height: 2rem;
+  margin: 0.625rem 1.25rem 0 0;
+  padding: 0 1.25rem 0 0;
+}

@@ -1,111 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <title>Travel Site</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Travel Site</title>
+  </head>
+  <body>
+    <!-- nav-bar -->
 
-<!-- nav-bar -->
+    <header>
+      <nav class="nav-bar">
+        <h1><a href="/index.html">Travel Site</a></h1>
+        <ul class="nav__links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/hawaii.html">Hawaii</a></li>
+          <li><a href="/pages/iceland.html">Iceland</a></li>
+          <li><a href="/pages/greece.html">Greece</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<header>
-  <nav class="nav-bar">
-    <h1><a href="/index.html">Travel Site</a></h1>
-    <ul class="nav__links">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/pages/hawaii.html">Hawaii</a></li>
-      <li><a href="/pages/iceland.html">Iceland</a></li>
-      <li><a href="/pages/greece.html">Greece</a></li>
-    </ul>
-  </nav>
-</header>
+    <!-- hero  -->
 
-<!-- hero  -->
+    <section>
+      <div class="hero-container">
+        <article class="hero__slogan">
+          <h1>Traveling Comes With Endless Discoveries</h1>
+          <p>
+            Don't let your dreams be just dreams. Experience the world by
+            booking a vacation with us now.
+          </p>
+          <button class="hero__button">Get Started</button>
+        </article>
+        <aside class="hero__image">
+          <img src="/assets/Images/hero.png" alt="" />
+        </aside>
+      </div>
+    </section>
 
+    <!-- section -->
 <section>
-  <div class="hero-container">
-    <article class="hero__slogan">
-      <h1>Traveling Comes With Endless Discoveries</h1>
-      <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-      <button class="hero__button">Get Started</button>
-    </article>
-    <aside class="hero__image">
-      <img src="/assets/Images/hero.png" alt="">
-    </aside>
-  </div>
-</section>
-
-<!-- recommendations section -->
   <h1>Recommendations</h1>
-<section class="reccomendations">
+  <section class="reccomendations">
+    <div class="recommendations__cards">
+      <article class="cards">
+        <div class="cards__photo">
+          <img
+            src="/assets/Images/hawaii.jpg"
+            alt="picture of an island in the horizon on the beach"
+          />
+          <h3 class="cards hawaii">Hawaii</h3>
+        </div>
+      </article>
+    </div>
 
-<div class="recommendations__cards">
-  <article class="cards">
-    <div class="cards__photo">
-        <img src="/assets/Images/hawaii.jpg" alt="picture of an island in the horizon on the beach">
-        <h3 class="cards hawaii">Hawaii</h3>
-      </div> 
-  </article>
-</div>
+    <div class="recommendations__cards">
+      <article class="cards">
+        <div class="cards__photo">
+          <img src="/assets/Images/iceland.jpg" alt="" />
+          <h3 class="cards iceland">Iceland</h3>
+        </div>
+      </article>
+    </div>
 
-<div class="recommendations__cards">
-  <article class="cards">
-    <div class="cards__photo">
-        <img src="/assets/Images/iceland.jpg" alt="">
-        <h3 class="cards iceland">Iceland</h3>
-      </div> 
-  </article>
-</div>
-
-<div class="recommendations__cards">
-  <article class="cards">
-    <div class="cards__photo">
-        <img src="/assets/Images/greece.jpg" alt="">
-        <h3 class="cards greece">Greece</h3>
-      </div> 
-    </article>
-  </div>
+    <div class="recommendations__cards">
+      <article class="cards">
+        <div class="cards__photo">
+          <img src="/assets/Images/greece.jpg" alt="" />
+          <h3 class="cards greece">Greece</h3>
+        </div>
+      </article>
+    </div>
+  </section>
 </section>
+    <!-- Footer -->
 
-<!-- Footer -->
-
-<footer class="footer-container">
-  <div class="footer__contact-container">
-    <h2 class="footer-subsection">Contact</h2>
-    <div class="footer__contact">
-      <p class="footer-subtitles">EMAIL</p>
-      <p>info@travelsite.com</p>
-    </div>
-  </div>
-  <div class="footer__hours">
-    <h2 class="footer-subsection">Hours</h2>
-    <div class="footer__hours-schedule">
-      <div class="footer__weekday-hours">
-        <p class="footer-subtitles">MONDAY - FRIDAY</p>
-        <P class="footer-timing">9:00 AM - 5:00 PM</P>
+    <footer class="footer-container">
+      <div class="footer__contact-container">
+        <h2 class="footer-subsection">Contact</h2>
+        <div class="footer__contact">
+          <p class="footer-subtitles">EMAIL</p>
+          <p>info@travelsite.com</p>
+        </div>
       </div>
-      <div class="footer__saturday-hours">
-        <p class="footer-subtitles">Saturday</p>
-        <p class="footer-timing">10:00 AM - 4:00 PM</p>
+      <div class="footer__hours">
+        <h2 class="footer-subsection">Hours</h2>
+        <div class="footer__hours-schedule">
+          <div class="footer__weekday-hours">
+            <p class="footer-subtitles">MONDAY - FRIDAY</p>
+            <p class="footer-timing">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer__saturday-hours">
+            <p class="footer-subtitles">Saturday</p>
+            <p class="footer-timing">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer__sunday-hours">
+            <p class="footer-subtitles">Sunday</p>
+            <p class="footer-timing">Closed</p>
+          </div>
+        </div>
       </div>
-      <div class="footer__sunday-hours">
-        <p class="footer-subtitles">Sunday</p>
-        <p class="footer-timing">Closed</p>
+      <div class="footer-subsection social">
+        <div class="footer-subsection title">
+          <h2>Social</h2>
+        </div>
+        <div>
+          <img
+            src="/assets/Icons/icon-instagram.png"
+            alt="instagram-icon"
+            class="footer_social-icons"
+          />
+          <img
+            src="/assets/Icons/icon-facebook.png"
+            alt="facebook-icon"
+            class="footer_social-icons"
+          />
+          <img
+            src="/assets/Icons/icon-twitter.png"
+            alt="twitter-icon"
+            class="footer_social-icons"
+          />
+        </div>
       </div>
-    </div>
-  </div>
-  <div>
-    <h2 class="footer-subsection">Social</h2>
-    <div>
-      <img src="/assets/Icons/icon-instagram.png" alt="instagram-icon" class="footer_social-icons">
-      <img src="/assets/Icons/icon-facebook.png" alt="facebook-icon" class="footer_social-icons">
-      <img src="/assets/Icons/icon-twitter.png" alt="twitter-icon" class="footer_social-icons">
-    </div>
-  </div>
-</footer>
-</body>
+    </footer>
+  </body>
 </html>
