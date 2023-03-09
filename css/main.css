@@ -1,22 +1,21 @@
 /* nav-bar */
-header{
+header {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-nav{
+nav {
   position: fixed;
   top: 0;
   width: 100%;
-  margin: 1.25rem;
-  padding: 1.25rem;
-  background-color: #FFFFFF;
+  padding: 2.5rem;
+  background-color: #ffffff;
 }
 
-.nav-bar{
-  background-color: #FFFFFF;
+.nav-bar {
+  background-color: #ffffff;
   color: #335576;
   display: flex;
   justify-content: space-between;
@@ -24,69 +23,79 @@ nav{
   width: 100%;
 }
 
-h1 a{
+h1 a {
   text-decoration: none;
   color: #335576;
 }
-.nav__links{
+.nav__links {
   list-style: none;
 }
 
-.nav__links li{
+.nav__links li {
   display: inline-block;
   padding: 0 1.25rem;
 }
 
-.nav__links li a{
+.nav__links li a {
   text-decoration: none;
   color: #335576;
 }
 
-.nav__links li a:a{
-border-bottom: 4px solid #DB7A4E;
+.nav__links li a:a {
+  border-bottom: 4px solid #db7a4e;
 }
 
 /* hero section */
 
-.hero-container{
+.hero-container {
   display: flex;
   background-color: #fefaf5;
   text-align: left;
   width: 100%;
   align-items: center;
-  margin: 1.25rem 0;
+  margin: 2.5rem 0;
   padding: 1.25rem 0;
 }
-.hero__slogan{
+.hero__slogan {
   color: #335576;
 }
-
-.hero__button{
-  background-color: #DB7A4E;
-  border-radius: 30px;
-  color: white;
-  border: #DB7A4E;
-  padding: 1.25rem 2.5rem;
+.hero__slogan h1 {
+  font-size: 2.5rem;
+  margin: 20px;
+  padding: 20px;
+}
+.hero__slogan p {
+  margin: 20px;
+  padding: 20px;
+}
+.hero__slogan button {
+  font-size: 1.125rem;
 }
 
-.hero__image{
-  margin: 1.25rem 0;
-  padding: 1.25rem 0;
-  height: 2rem;
-  border-radius: 4px;
-  width: 31.25rem;
-  margin: 1.25rem 0;
-  padding: 1.25rem 0;
+.hero__button {
+  background-color: #db7a4e;
+  border-radius: 30px;
+  color: white;
+  border: #db7a4e;
+  margin: 2.5rem;
+  padding: 1.25rem 3.75rem;
+}
+
+.hero__image {
+  display: flex;
+  height: 27rem;
+  margin: 1.25rem;
+  padding: 1.25rem;
 }
 
 /* recommendations section */
 
-.reccomendations{
+.reccomendations {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.recommendations__cards{
+.recommendations__cards {
   display: inline-block;
   justify-content: center;
   flex-direction: row;
@@ -94,56 +103,56 @@ border-bottom: 4px solid #DB7A4E;
   flex-wrap: nowrap;
   margin: 1.25rem;
   padding: 1.25rem;
-  }
+}
 
-.cards{
+.cards {
   border-radius: 0.625rem;
   display: flex;
   justify-content: flex-end;
-  background-color: rgba(0,0,0,0.5);
-  color: #FFFFFF;
+  background-color: rgba(242, 8, 8, 0.5);
+  color: #ffffff;
 }
 
-.cards__photo img{
+.cards__photo img {
   height: 20rem;
   border-radius: 0.625rem;
 }
 
-
-
 /* footer section */
-.footer-container{
+.footer-container {
   background-color: #fefaf5;
   color: #335576;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
+  padding: 2.5rem;
+  margin: 1.25rem 0;
+  width: 100%;
 }
 
-.footer__hours{
+.footer__hours {
   display: flex;
   flex-direction: column;
 }
-.footer__hours-schedule{
+
+.footer__hours-schedule {
   display: flex;
   flex-direction: row;
 }
 
-
-.footer-subtitles{
-  color: #DB7A4E;
-  font-size: .625rem;
+.footer-subtitles {
+  color: #db7a4e;
+  font-size: 0.625rem;
   margin: 1.25rem 0;
   padding: 1.25 rem 0;
 }
 
-.footer-timing{
+.footer-timing {
   margin: 0 1.25rem 0 0;
 }
 
-.footer_social-icons{
-  height: 1 rem;
-  margin: .625rem 1.25rem 0 0;
+.footer_social-icons {
+  height: 2rem;
+  margin: 0.625rem 1.25rem 0 0;
   padding: 0 1.25rem 0 0;
 }
