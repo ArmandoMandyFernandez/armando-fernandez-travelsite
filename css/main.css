@@ -4,9 +4,8 @@
   background-color: #fefaf5;
   text-align: left;
   width: 100%;
-  align-items: center;
-  margin: 2.5rem 0;
-  padding: 1.25rem 0;
+  align-items: center; 
+  padding: 4%;
 }
 
 .hero__slogan {
@@ -45,21 +44,16 @@
 }
 
 /* recommendations section */
-
-.reccomendations {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.recs{
+  padding: 2% 7%;
+  color: #335576;
 }
-
-.recommendations__cards {
-  display: inline-block;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 1.25rem;
-  padding: 1.25rem;
+.recs__heading{
+  margin: 3% 0;
+}
+.recs__container{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .cards {
