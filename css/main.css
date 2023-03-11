@@ -45,7 +45,7 @@
 
 /* recommendations section */
 .recs{
-  padding: 2% 7%;
+  padding: 4% 7%;
   color: #335576;
 }
 .recs__heading{
@@ -85,19 +85,19 @@
 
 .recs__card-hawaii{
   position: absolute;
-  top: 61rem;
+  top: 63rem;
   left: 25rem;
   color: #fefaf5;
 }
 .recs__card-iceland{
   position: absolute;
-  top: 61rem;
+  top: 63rem;
   left: 41rem;
   color: #fefaf5;
 }
 .recs__card-greece{
   position: absolute;
-  top: 61rem;
+  top: 63rem;
   left: 58rem;
   color: #fefaf5;
 }
