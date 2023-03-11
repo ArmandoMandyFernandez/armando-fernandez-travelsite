@@ -1,7 +1,25 @@
 
 /* Section */
-.location {
+.location{
   background-image: url(/assets/Images/greece.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 15%;
+}
+.hawaii {
+  background-image: url(/assets/Images/hawaii.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 9%;
+}
+.iceland {
+  background-image: url(/assets/Images/iceland.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 9%;
 }
 
 .card__container {
@@ -17,11 +35,12 @@
   text-align: left;
   margin-top: 7%;
   margin-left: 7%;
+  padding: 4% 0;
 }
 .card {
   width: 18.75rem;
   height: 25rem ;
-  margin: 20px;
+  margin: 1.875rem;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
