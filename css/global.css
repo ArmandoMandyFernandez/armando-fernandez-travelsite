@@ -86,8 +86,8 @@ h1 a {
   margin: 0 1.25rem 0 0;
 }
 
-.footer-subsection .social{
-  width: 9.375rem;
+.footer__subsection-social{
+  width: 10rem;
   height: 6.25rem;
 }
 .footer__social-icons{
