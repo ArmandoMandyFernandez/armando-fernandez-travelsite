@@ -5,6 +5,10 @@
 body{
   font-family: verdana;
 }
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* nav-bar */
 header {
@@ -87,7 +91,7 @@ h1 a {
 }
 
 .footer__subsection-social{
-  width: 10rem;
+  width: 9.375rem;
   height: 6.25rem;
 }
 .footer__social-icons{
