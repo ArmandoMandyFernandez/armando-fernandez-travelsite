@@ -53,9 +53,11 @@
 }
 .recs__container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-
+.recs__cards{
+  margin: 0 2%;
+}
 .recs__card-image-hawaii{
   position: relative;
   height: 20rem;
@@ -84,7 +86,7 @@
 .recs__card-hawaii{
   position: absolute;
   top: 61rem;
-  left: 21rem;
+  left: 25rem;
   color: #fefaf5;
 }
 .recs__card-iceland{
@@ -96,7 +98,7 @@
 .recs__card-greece{
   position: absolute;
   top: 61rem;
-  left: 62rem;
+  left: 58rem;
   color: #fefaf5;
 }
 
