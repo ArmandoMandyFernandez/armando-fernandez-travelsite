@@ -33,7 +33,7 @@
   color: white;
   border: #db7a4e;
   margin: 2.5rem;
-  padding: 1.25rem 3.75rem;
+  padding: .75rem 2.625rem;
 }
 .hero__button:hover{
   background-color: #943407;
@@ -48,6 +48,7 @@
 }
 
 /* recommendations section */
+
 .recs {
   padding: 0 7% 4% 7%;
   color: #335576;
@@ -97,10 +98,15 @@
   background-size: cover;
 }
 .recs__card-hawaii,
-.recs__card-iceland,
 .recs__card-greece {
   position: relative;
   top: -30px;
   left: 140px;
+  color: #ffffff;
+}
+.recs__card-iceland{
+  position: relative;
+  top: -30px;
+  left: 135px;
   color: #ffffff;
 }
