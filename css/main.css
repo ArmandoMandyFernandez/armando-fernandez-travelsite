@@ -5,7 +5,7 @@
   text-align: left;
   width: 100%;
   align-items: center;
-  padding: 4%;
+  padding: 7% 4% 4% 4%;
 }
 
 .hero__slogan {
@@ -67,6 +67,7 @@
 }
 .recs__cards:hover{
   box-shadow: 0px 0px 10px #db7a4e;
+  background-color: rgba(0, 0, 0, 20%);
   transition: .5s;
 }
 .recs__card-image-hawaii,
@@ -83,6 +84,9 @@
 .recs__card-image-hawaii {
   background-image: url(/assets/Images/hawaii.jpg);
   background-size: cover;
+}
+.recs__card-image-hawaii a:hover {
+  background-color: rgba(0, 0, 0, 20%);
 }
 .recs__card-image-iceland {
   background-image: url(/assets/Images/iceland.jpg);
