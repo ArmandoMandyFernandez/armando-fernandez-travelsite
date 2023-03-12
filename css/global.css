@@ -60,7 +60,7 @@ a.active {
 }
 
 /* footer section */
-.footer-container {
+.footer__container {
   background-color: #fefaf5;
   color: #335576;
   display: flex;
@@ -81,12 +81,12 @@ a.active {
   flex-direction: row;
 }
 
-.footer-subtitles {
+.footer__subtitles {
   color: #db7a4e;
   font-size: 0.625rem;
   margin: 1.25rem 0;
 }
-.footer-timing {
+.footer__timing {
   margin: 0 1.25rem 0 0;
 }
 
