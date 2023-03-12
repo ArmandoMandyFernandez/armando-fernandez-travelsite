@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: verdana;
 }
-a{
+a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -90,15 +90,15 @@ a.active {
   margin: 0 1.25rem 0 0;
 }
 
-.footer__subsection-social{
+.footer__subsection-social {
   width: 9.375rem;
   height: 6.25rem;
 }
-.footer__social-icons{
+.footer__social-icons {
   display: flex;
   justify-content: space-between;
   margin: 28% 0;
 }
-.footer__social-icons-size{
+.footer__social-icons-size {
   height: 25px;
 }

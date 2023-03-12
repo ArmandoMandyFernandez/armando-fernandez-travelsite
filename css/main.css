@@ -4,7 +4,7 @@
   background-color: #fefaf5;
   text-align: left;
   width: 100%;
-  align-items: center; 
+  align-items: center;
   padding: 4%;
 }
 
@@ -44,30 +44,32 @@
 }
 
 /* recommendations section */
-.recs{
+.recs {
   padding: 0 7% 4% 7%;
   color: #335576;
 }
-.recs__heading{
+.recs__heading {
   margin: 3% 0;
 }
-.recs__container{
+.recs__container {
   display: flex;
   justify-content: center;
 }
-.recs__cards{
+.recs__cards {
   margin: 0 2%;
 }
-.recs__card-image-hawaii, .recs__card-image-iceland, .recs__card-image-greece { 
+.recs__card-image-hawaii,
+.recs__card-image-iceland,
+.recs__card-image-greece {
   position: relative;
   height: 20rem;
   width: 14rem;
   border: 1px solid black 20%;
-  border-radius: .3125rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 20%);}
+  border-radius: 0.3125rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 20%);
+}
 
-
-.recs__card-image-hawaii{
+.recs__card-image-hawaii {
   background-image: url(/assets/Images/hawaii.jpg);
   background-size: cover;
 }
@@ -80,11 +82,11 @@
   background-size: cover;
 }
 
-.recs__card-hawaii, .recs__card-iceland, .recs__card-greece{
+.recs__card-hawaii,
+.recs__card-iceland,
+.recs__card-greece {
   position: relative;
   top: -30px;
   left: 140px;
   color: #ffffff;
 }
-
-

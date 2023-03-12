@@ -1,25 +1,20 @@
 
 /* Section */
 .location{
-  background-image: url(/assets/Images/greece.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 9%;
+}
+
+.greece{
+  background-image: url(/assets/Images/greece.jpg);
 }
 .hawaii {
   background-image: url(/assets/Images/hawaii.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 9%;
 }
 .iceland {
   background-image: url(/assets/Images/iceland.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 9%;
 }
 
 .card__container {
