@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 15%;
+  padding-bottom: 9%;
 }
 .hawaii {
   background-image: url(/assets/Images/hawaii.jpg);
@@ -30,7 +30,7 @@
   text-align: center;
 }
 .location h2 {
-  font-size: 4em;
+  font-size: 4rem;
   color: #fff;
   text-align: left;
   margin-top: 7%;
@@ -71,5 +71,5 @@
   text-decoration: none;
   list-style: none;
   position: relative;
-  top: 60px;
+  top: 3.75rem;
 }
